@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            background-color: rgb(104,190,70);
+            width: 100%;
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+            background-color: white;
+            width: 400px;
+            height: 337px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form input{
+            margin: 8px 0;
+            width: 96%;
+            height: 3rem;
+            background-color:#F2F2F2;
+            border: 1px solid rgb(252, 249, 249);
+            outline: 0;
+            padding-left: 17px;
+        }
+        .fromcontent{
+            padding: 5vw 20px 0px 10px;;
+        }
+        .submit{
+            font-size: 1.15rem;
+            background-color: #00B241!important;
+            color: white;
+            width: 100% ! important;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer h3{
+            font-size: 1.15rem;
+
+        }
+        .register{
+            color: #dad4d4;
+        }
+        .link{
+            color: #00B241;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="fromcontent">
+                <input type="text" placeholder="User name">
+                <input type="password" placeholder="password">
+                <input type="submit" value="LOGIN" class="submit">
+            </div>
+       
+        <div class="footer">
+            <p class="register">Now registered?</p>
+            <p class="link">Create an Account</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
